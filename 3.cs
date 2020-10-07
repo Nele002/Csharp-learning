@@ -1,11 +1,3 @@
-// NOT FINISHED
-
-
-// NOT FINISHED
-
-
-// NOT FINISHED
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,12 +10,17 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             Random rnd = new Random();
-            int n,a;
-            Console.WriteLine("Enter n:");
-            n = int.Parse(Console.ReadLine());
+            int n, a;
+            do
+            {
+                Console.WriteLine("Enter n:");
+                n = int.Parse(Console.ReadLine());
+            } while (n < 1);
             for (int i = 0; i < n; i++)
             {
                 a = rnd.Next(1, 100);
+                // Test
+                // Console.WriteLine("Random broj: {0}, index{1}",a,i+1);
                 if (a % 2 == 0 && a > 20 && a < 40)
                 {
                     continue;
@@ -32,22 +29,12 @@ namespace ConsoleApplication1
                 {
                     break;
                 }
-                else 
+                else
                 {
                     Console.WriteLine(a);
-                }                   
-            }    
+                }
+            }
             Console.ReadKey();
         }
     }
 }
-
-// NOT FINISHED
-
-// NOT FINISHED
-
-// NOT FINISHED
-
-// NOT FINISHED
-
-// NOT FINISHED
