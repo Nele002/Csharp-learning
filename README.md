@@ -9,6 +9,6 @@ is uneven between 70-90 stop generating numbers.
 
 4.Print middle number out of 3 numbers.  
 
-5.Enter numbers untill 7 is entered. Print sum of entered numbers.
+5.Enter numbers untill 7 is entered two times. Print sum of entered numbers.
 
-6.Enter numbers untill 7 is entered twice. Print average of entered numbers. 
+6.Enter numbers untill 7 is entered two times in a row. Print average of entered numbers. 
